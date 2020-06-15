@@ -34,8 +34,8 @@
 
 #define HARDWARE_PWM_CCP_REGISTER(PWM_NUM, REGISTER) PREPROCESSOR_STITCH(CCP, \
                                                      PREPROCESSOR_STITCH(PWM_NUM, REGISTER))
-#define HARDWARE_PWM_PIN_OUPUT(PWM_NUM, PIN) PREPROCESSOR_STITCH(HARDWARE_PWM_CCP_REGISTER(PWM_NUM, CON2Hbits), \
-                                             PREPROCESSOR_STITCH(.OC, \
+#define HARDWARE_PWM_PIN_OUPUT(PWM_NUM, PIN) PREPROCESSOR_STITCH(HARDWARE_PWM_CCP_REGISTER(PWM_NUM, CON2Hbit), \
+                                             PREPROCESSOR_STITCH(s.OC, \
                                              PREPROCESSOR_STITCH(PIN, EN)))
 
 // MOTOR START/STOPS
@@ -76,8 +76,8 @@
 
 // Period register value calculation
 #define PERIOD_CALCULATION(PERIOD_US) ((uint16_t) ((PERIOD_US) * \
-                                      {CLOCK_PeripheralFrequencyGet() / \
-                                      (HARDWARE_PWM_TMR_PRESCALER * 1000000UL) - 1))
+                                      (CLOCK_PeripheralFrequencyGet() / \
+                                      (HARDWARE_PWM_TMR_PRESCALER * 1000000UL)) - 1))
 
 #define HARDWARE_PWM_PERIOD_SET_US(PWM_NUM, PERIOD_US) \
         {HARDWARE_PWM_CCP_REGISTER(PWM_NUM, PRL) = PERIOD_CALCULATION(PERIOD_US); \

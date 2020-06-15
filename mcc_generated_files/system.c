@@ -18,7 +18,7 @@
     The generated drivers are tested against the following:
         Compiler          :  XC16 v1.50
         MPLAB             :  MPLAB X v5.35
-*/
+ */
 
 /*
     (c) 2020 Microchip Technology Inc. and its subsidiaries. You may use this
@@ -40,7 +40,7 @@
 
     MICROCHIP PROVIDES THIS SOFTWARE CONDITIONALLY UPON YOUR ACCEPTANCE OF THESE
     TERMS.
-*/
+ */
 
 // Configuration bits: selected in the GUI
 
@@ -60,7 +60,7 @@
 
 // FOSC
 #pragma config POSCMOD = NONE    //Primary Oscillator Configuration bits->Primary oscillator disabled
-#pragma config OSCIOFNC = CLKO    //CLKO Enable Configuration bit->CLKO output signal enabled
+#pragma config OSCIOFNC = IO    //CLKO Enable Configuration bit->Port I/O enabled (CLKO disabled)
 #pragma config POSCFREQ = HS    //Primary Oscillator Frequency Range Configuration bits->Primary oscillator/external clock input frequency greater than 8MHz
 #pragma config SOSCSEL = SOSCHP    //SOSC Power Selection Configuration bits->Secondary Oscillator configured for high-power operation
 #pragma config FCKSM = CSDCMD    //Clock Switching and Monitor Selection->Both Clock Switching and Fail-safe Clock Monitor are disabled
@@ -88,23 +88,20 @@
 #include "interrupt_manager.h"
 #include "traps.h"
 #include "mssp1_i2c.h"
-#include "tmr1.h"
 #include "uart2.h"
 #include "uart1.h"
 #include "../hardware_PWM.h"
+#include "../ms_timer.h"
 
-void SYSTEM_Initialize(void)
-{
+void SYSTEM_Initialize(void) {
     PIN_MANAGER_Initialize();
     INTERRUPT_Initialize();
     CLOCK_Initialize();
+    MS_TIMER_Initialize();
+    //UART_Initialise();
     Hardware_PWM_Initialise();
-    /*SCCP4_COMPARE_Initialize();
-    MCCP3_COMPARE_Initialize();
+    /*
     MSSP1_I2C_Initialize();
-    SCCP5_COMPARE_Initialize();
-    MCCP2_COMPARE_Initialize();
-    MCCP1_COMPARE_Initialize();
     UART2_Initialize();
     UART1_Initialize();
     TMR1_Initialize();*/
@@ -112,4 +109,4 @@ void SYSTEM_Initialize(void)
 
 /**
  End of File
-*/
+ */

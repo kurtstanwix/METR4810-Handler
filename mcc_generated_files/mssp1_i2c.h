@@ -273,10 +273,7 @@ void MSSP1_I2C_Initialize(void);
 
 */
 
-void MSSP1_I2C_MasterWrite(
-                                uint8_t *pdata,
-                                uint8_t length,
-                                uint16_t address,
+void MSSP1_I2C_MasterWrite(uint8_t *pdata, uint8_t length, uint16_t address,
                                 MSSP1_I2C_MESSAGE_STATUS *pstatus);
 
                                

@@ -1,6 +1,6 @@
 #include "util.h"
 #include "buffer.h"
-//#include "uart_manager.h"
+#include "uart_manager.h"
 
 BUFFER_OBJ debugBuffer;
 #define DEBUG_LENGTH 128
@@ -8,7 +8,7 @@ BUFFER_OBJ debugBuffer;
 void init_debug(void) {
     init_buffer(&debugBuffer, DEBUG_LENGTH);
 }
-/*
+
 #ifdef PC_UART_NUM
 #ifdef __USER_DEBUG
 void print_debug(char *toPrint, uint8_t length, bool newLine) {
@@ -28,7 +28,7 @@ void print_debug(char *toPrint, uint8_t length, bool newLine) {
     return;
 }
 #endif
-*/
+
 // Check if the given array contains the specified command
 bool compare_strings(uint8_t *toCheck, char *command, uint8_t commandLength) {
     uint8_t i;

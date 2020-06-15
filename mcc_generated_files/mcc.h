@@ -51,17 +51,18 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#include "interrupt_manager.h"
-#include "traps.h"
-#include "sccp4_compare.h"
 #include "sccp5_compare.h"
-#include "mccp1_compare.h"
+#include "sccp4_compare.h"
+#include "mccp2_compare.h"
 #include "mccp3_compare.h"
 #include "mssp1_i2c.h"
-#include "mccp2_compare.h"
-#include "tmr1.h"
+#include "mssp2_i2c.h"
+#include "mccp1_compare.h"
 #include "uart2.h"
 #include "uart1.h"
+#include "tmr1.h"
+#include "interrupt_manager.h"
+#include "traps.h"
 
 #warning "This file will be removed in future MCC releases. Use system.h instead."
 
