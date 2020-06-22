@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=mcc_generated_files/system.c mcc_generated_files/clock.c mcc_generated_files/mssp1_i2c.c mcc_generated_files/interrupt_manager.c mcc_generated_files/mcc.c mcc_generated_files/pin_manager.c mcc_generated_files/traps.c mcc_generated_files/uart1.c mcc_generated_files/uart2.c main.c hardware_PWM.c util.c buffer.c ms_timer.c at_control.c uart_manager.c imu.c
+SOURCEFILES_QUOTED_IF_SPACED=mcc_generated_files/system.c mcc_generated_files/clock.c mcc_generated_files/interrupt_manager.c mcc_generated_files/mcc.c mcc_generated_files/pin_manager.c mcc_generated_files/traps.c mcc_generated_files/uart1.c mcc_generated_files/uart2.c main.c hardware_PWM.c util.c buffer.c ms_timer.c at_control.c uart_manager.c comms.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/mssp1_i2c.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/traps.o ${OBJECTDIR}/mcc_generated_files/uart1.o ${OBJECTDIR}/mcc_generated_files/uart2.o ${OBJECTDIR}/main.o ${OBJECTDIR}/hardware_PWM.o ${OBJECTDIR}/util.o ${OBJECTDIR}/buffer.o ${OBJECTDIR}/ms_timer.o ${OBJECTDIR}/at_control.o ${OBJECTDIR}/uart_manager.o ${OBJECTDIR}/imu.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/mcc_generated_files/system.o.d ${OBJECTDIR}/mcc_generated_files/clock.o.d ${OBJECTDIR}/mcc_generated_files/mssp1_i2c.o.d ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o.d ${OBJECTDIR}/mcc_generated_files/mcc.o.d ${OBJECTDIR}/mcc_generated_files/pin_manager.o.d ${OBJECTDIR}/mcc_generated_files/traps.o.d ${OBJECTDIR}/mcc_generated_files/uart1.o.d ${OBJECTDIR}/mcc_generated_files/uart2.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/hardware_PWM.o.d ${OBJECTDIR}/util.o.d ${OBJECTDIR}/buffer.o.d ${OBJECTDIR}/ms_timer.o.d ${OBJECTDIR}/at_control.o.d ${OBJECTDIR}/uart_manager.o.d ${OBJECTDIR}/imu.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/traps.o ${OBJECTDIR}/mcc_generated_files/uart1.o ${OBJECTDIR}/mcc_generated_files/uart2.o ${OBJECTDIR}/main.o ${OBJECTDIR}/hardware_PWM.o ${OBJECTDIR}/util.o ${OBJECTDIR}/buffer.o ${OBJECTDIR}/ms_timer.o ${OBJECTDIR}/at_control.o ${OBJECTDIR}/uart_manager.o ${OBJECTDIR}/comms.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/mcc_generated_files/system.o.d ${OBJECTDIR}/mcc_generated_files/clock.o.d ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o.d ${OBJECTDIR}/mcc_generated_files/mcc.o.d ${OBJECTDIR}/mcc_generated_files/pin_manager.o.d ${OBJECTDIR}/mcc_generated_files/traps.o.d ${OBJECTDIR}/mcc_generated_files/uart1.o.d ${OBJECTDIR}/mcc_generated_files/uart2.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/hardware_PWM.o.d ${OBJECTDIR}/util.o.d ${OBJECTDIR}/buffer.o.d ${OBJECTDIR}/ms_timer.o.d ${OBJECTDIR}/at_control.o.d ${OBJECTDIR}/uart_manager.o.d ${OBJECTDIR}/comms.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/mssp1_i2c.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/traps.o ${OBJECTDIR}/mcc_generated_files/uart1.o ${OBJECTDIR}/mcc_generated_files/uart2.o ${OBJECTDIR}/main.o ${OBJECTDIR}/hardware_PWM.o ${OBJECTDIR}/util.o ${OBJECTDIR}/buffer.o ${OBJECTDIR}/ms_timer.o ${OBJECTDIR}/at_control.o ${OBJECTDIR}/uart_manager.o ${OBJECTDIR}/imu.o
+OBJECTFILES=${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/traps.o ${OBJECTDIR}/mcc_generated_files/uart1.o ${OBJECTDIR}/mcc_generated_files/uart2.o ${OBJECTDIR}/main.o ${OBJECTDIR}/hardware_PWM.o ${OBJECTDIR}/util.o ${OBJECTDIR}/buffer.o ${OBJECTDIR}/ms_timer.o ${OBJECTDIR}/at_control.o ${OBJECTDIR}/uart_manager.o ${OBJECTDIR}/comms.o
 
 # Source Files
-SOURCEFILES=mcc_generated_files/system.c mcc_generated_files/clock.c mcc_generated_files/mssp1_i2c.c mcc_generated_files/interrupt_manager.c mcc_generated_files/mcc.c mcc_generated_files/pin_manager.c mcc_generated_files/traps.c mcc_generated_files/uart1.c mcc_generated_files/uart2.c main.c hardware_PWM.c util.c buffer.c ms_timer.c at_control.c uart_manager.c imu.c
+SOURCEFILES=mcc_generated_files/system.c mcc_generated_files/clock.c mcc_generated_files/interrupt_manager.c mcc_generated_files/mcc.c mcc_generated_files/pin_manager.c mcc_generated_files/traps.c mcc_generated_files/uart1.c mcc_generated_files/uart2.c main.c hardware_PWM.c util.c buffer.c ms_timer.c at_control.c uart_manager.c comms.c
 
 
 
@@ -108,13 +108,6 @@ ${OBJECTDIR}/mcc_generated_files/clock.o: mcc_generated_files/clock.c  nbproject
 	@${RM} ${OBJECTDIR}/mcc_generated_files/clock.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  mcc_generated_files/clock.c  -o ${OBJECTDIR}/mcc_generated_files/clock.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcc_generated_files/clock.o.d"      -g -D__DEBUG     -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp=${DFP_DIR}/xc16
 	@${FIXDEPS} "${OBJECTDIR}/mcc_generated_files/clock.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/mcc_generated_files/mssp1_i2c.o: mcc_generated_files/mssp1_i2c.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
-	@${RM} ${OBJECTDIR}/mcc_generated_files/mssp1_i2c.o.d 
-	@${RM} ${OBJECTDIR}/mcc_generated_files/mssp1_i2c.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  mcc_generated_files/mssp1_i2c.c  -o ${OBJECTDIR}/mcc_generated_files/mssp1_i2c.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcc_generated_files/mssp1_i2c.o.d"      -g -D__DEBUG     -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp=${DFP_DIR}/xc16
-	@${FIXDEPS} "${OBJECTDIR}/mcc_generated_files/mssp1_i2c.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o: mcc_generated_files/interrupt_manager.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
@@ -207,12 +200,12 @@ ${OBJECTDIR}/uart_manager.o: uart_manager.c  nbproject/Makefile-${CND_CONF}.mk
 	${MP_CC} $(MP_EXTRA_CC_PRE)  uart_manager.c  -o ${OBJECTDIR}/uart_manager.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/uart_manager.o.d"      -g -D__DEBUG     -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp=${DFP_DIR}/xc16
 	@${FIXDEPS} "${OBJECTDIR}/uart_manager.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/imu.o: imu.c  nbproject/Makefile-${CND_CONF}.mk
+${OBJECTDIR}/comms.o: comms.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/imu.o.d 
-	@${RM} ${OBJECTDIR}/imu.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  imu.c  -o ${OBJECTDIR}/imu.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/imu.o.d"      -g -D__DEBUG     -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp=${DFP_DIR}/xc16
-	@${FIXDEPS} "${OBJECTDIR}/imu.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	@${RM} ${OBJECTDIR}/comms.o.d 
+	@${RM} ${OBJECTDIR}/comms.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  comms.c  -o ${OBJECTDIR}/comms.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/comms.o.d"      -g -D__DEBUG     -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp=${DFP_DIR}/xc16
+	@${FIXDEPS} "${OBJECTDIR}/comms.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 else
 ${OBJECTDIR}/mcc_generated_files/system.o: mcc_generated_files/system.c  nbproject/Makefile-${CND_CONF}.mk
@@ -228,13 +221,6 @@ ${OBJECTDIR}/mcc_generated_files/clock.o: mcc_generated_files/clock.c  nbproject
 	@${RM} ${OBJECTDIR}/mcc_generated_files/clock.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  mcc_generated_files/clock.c  -o ${OBJECTDIR}/mcc_generated_files/clock.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcc_generated_files/clock.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp=${DFP_DIR}/xc16
 	@${FIXDEPS} "${OBJECTDIR}/mcc_generated_files/clock.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/mcc_generated_files/mssp1_i2c.o: mcc_generated_files/mssp1_i2c.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
-	@${RM} ${OBJECTDIR}/mcc_generated_files/mssp1_i2c.o.d 
-	@${RM} ${OBJECTDIR}/mcc_generated_files/mssp1_i2c.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  mcc_generated_files/mssp1_i2c.c  -o ${OBJECTDIR}/mcc_generated_files/mssp1_i2c.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcc_generated_files/mssp1_i2c.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp=${DFP_DIR}/xc16
-	@${FIXDEPS} "${OBJECTDIR}/mcc_generated_files/mssp1_i2c.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o: mcc_generated_files/interrupt_manager.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
@@ -327,12 +313,12 @@ ${OBJECTDIR}/uart_manager.o: uart_manager.c  nbproject/Makefile-${CND_CONF}.mk
 	${MP_CC} $(MP_EXTRA_CC_PRE)  uart_manager.c  -o ${OBJECTDIR}/uart_manager.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/uart_manager.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp=${DFP_DIR}/xc16
 	@${FIXDEPS} "${OBJECTDIR}/uart_manager.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/imu.o: imu.c  nbproject/Makefile-${CND_CONF}.mk
+${OBJECTDIR}/comms.o: comms.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/imu.o.d 
-	@${RM} ${OBJECTDIR}/imu.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  imu.c  -o ${OBJECTDIR}/imu.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/imu.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp=${DFP_DIR}/xc16
-	@${FIXDEPS} "${OBJECTDIR}/imu.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	@${RM} ${OBJECTDIR}/comms.o.d 
+	@${RM} ${OBJECTDIR}/comms.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  comms.c  -o ${OBJECTDIR}/comms.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/comms.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp=${DFP_DIR}/xc16
+	@${FIXDEPS} "${OBJECTDIR}/comms.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 endif
 

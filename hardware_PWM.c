@@ -1,15 +1,18 @@
 #include "hardware_PWM.h"
 
+// Current MCCP mode
 static const uint16_t OCMode = 0b110; // Edge-Aligned PWM;
 
+// Duty cycles of each joint
 uint16_t dutyCycle1 = 0;
 uint16_t dutyCycle2 = 0;
 uint16_t dutyCycle3 = 0;
 uint16_t dutyCycle4 = 0;
 uint16_t dutyCycle5 = 0;
 
-
-
+/**
+ * Intialises the Hardware PWM's to be ready for use
+ */
 void Hardware_PWM_Initialise(void) {
     HARDWARE_PWM_CCP_REGISTER(JOINT_1_3_PWM_1, CON1L) = 0x0000;
     HARDWARE_PWM_CCP_REGISTER(JOINT_1_3_PWM_2, CON1L) = 0x0000;

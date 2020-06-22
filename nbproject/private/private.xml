@@ -3,25 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/J:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/uart_manager.c</file>
-            <file>file:/J:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/mcc_generated_files/uart1.c</file>
-            <file>file:/J:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/uart_manager.h</file>
-            <file>file:/J:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/at_control.c</file>
-            <file>file:/J:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/mcc_generated_files/mssp1_i2c.h</file>
-            <file>file:/J:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/mcc_generated_files/system.c</file>
-            <file>file:/J:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/at_control.h</file>
-            <file>file:/J:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/mcc_generated_files/mssp1_i2c.c</file>
-            <file>file:/J:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/mcc_generated_files/pin_manager.c</file>
-            <file>file:/J:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/mcc_generated_files/interrupt_manager.c</file>
-            <file>file:/J:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/ms_timer.h</file>
-            <file>file:/J:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/util.c</file>
-            <file>file:/J:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/hardware_PWM.h</file>
-            <file>file:/J:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/imu.c</file>
-            <file>file:/J:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/main.c</file>
-            <file>file:/J:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/util.h</file>
-            <file>file:/J:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/ms_timer.c</file>
-            <file>file:/J:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/imu.h</file>
-            <file>file:/J:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/hardware_PWM.c</file>
+            <file>file:/H:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/hardware_PWM.h</file>
+            <file>file:/H:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/main.c</file>
+            <file>file:/H:/Uni/Fifth%20Year/Semester%201/METR4810/Code/handler-system/hardware_PWM.c</file>
         </group>
     </open-files>
 </project-private>
